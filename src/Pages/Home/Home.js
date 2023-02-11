@@ -1,11 +1,13 @@
 import React, { useEffect } from "react";
+
+import Drawer from "../../Components/Drawer";
 import MenuItems from "../../Components/Sections/Left/MenuItems";
-import style from "./Home.module.css";
-import { useRecoilValue } from "recoil";
-import RightSide from "../../Components/Sections/Right/RightSide";
 import MiddleContainer from "../../Components/Sections/Middle/MiddleContainer";
+import RightSide from "../../Components/Sections/Right/RightSide";
 import { isLoginAtom } from "../../Recoil/Atom";
+import style from "./Home.module.css";
 import { useNavigate } from "react-router-dom";
+import { useRecoilValue } from "recoil";
 
 function Home() {
   const isUserLoggedIn = useRecoilValue(isLoginAtom);
@@ -28,6 +30,9 @@ function Home() {
       <div className={style.rightContainer}>
         <RightSide />
       </div>
+     <div>
+     <Drawer/>
+     </div> 
     </div>
   );
 }
