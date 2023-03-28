@@ -1,4 +1,4 @@
-* Twitter Clone in React.js 
+* ## Twitter Clone in React.js 
 - This project is a clone of Twitter built using React.js in the frontend. It aims to provide users with a similar user interface and features as the real Twitter platform.
 
 * Technologies Used
@@ -19,5 +19,5 @@
  - Notifications page with a list of notifications for the logged-in user, including new followers, likes, and retweets
  - Ability to post new tweets, including text, images, and links
 
-* Contributions </pr>
-   Contributions to this project are welcome. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
+* Contributions.
+  * Contributions to this project are welcome. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
