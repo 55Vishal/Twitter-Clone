@@ -19,5 +19,5 @@
  - Notifications page with a list of notifications for the logged-in user, including new followers, likes, and retweets
  - Ability to post new tweets, including text, images, and links
 
-* Contributions
+* Contributions </pr>
    Contributions to this project are welcome. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.
